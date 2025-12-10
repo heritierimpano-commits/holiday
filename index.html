@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Interactive JavaScript Website</h1>
+        <button id="themeBtn">Switch Theme</button>
+    </header>
+
+    <main>
+        <!-- Feature 1: Form Validation -->
+        <section class="card">
+            <h2>Sign Up Form</h2>
+            <form id="signupForm">
+                <input type="text" id="name" placeholder="Enter your name">
+                <input type="email" id="email" placeholder="Enter your email">
+                <input type="password" id="password" placeholder="Enter password(min 6 chars)">
+                <button type="submit">Submit</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+
+        <!-- Feature 2: Image Changer -->
+        <section class="card">
+            <h2>Click the Image to Change It</h2>
+            <img id="changeImg" src="c:\Users\EspiTech\OneDrive\Desktop\My work\beautiful-lake-mountains_395237-44.avif" src="c:\Users\EspiTech\OneDrive\Desktop\My work\pexels-simon73-1266810.jpg" alt="clickable">
+        </section>
+
+        <!-- Feature 3: Show / Hide Text -->
+        <section class="card">
+            <h2>Show / Hide Information</h2>
+            <button id="toggleBtn">Show More</button>
+            <p id="infoText" style="display:none;">
+                This is some hidden information that appears when the user clicks the button.
+            </p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
